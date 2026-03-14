@@ -40,3 +40,5 @@ export const isThumbsUp = (landmarks: Landmark[]) => {
     isFolded(landmarks, 20, 18);
   return thumbUp && othersFolded;
 };
+
+// fot the test
