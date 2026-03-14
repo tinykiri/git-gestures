@@ -1,4 +1,3 @@
-// src/index.ts
 import puppeteer from 'puppeteer';
 import path from 'path';
 import { isDevilHorns, isPrayingHands, isIndexFingerUp, isMiddleFinger, isThumbsUp } from './gestures';
@@ -15,7 +14,7 @@ let isListeningForVoice = false;
 
 let activeGesture: string | null = null;
 let gestureStartTime: number = 0;
-const HOLD_DURATION = 800;
+const HOLD_DURATION = 400;
 
 const triggerCooldown = (delayMs = 3000) => {
   isCooldown = true;
