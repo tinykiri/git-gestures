@@ -18,6 +18,7 @@ export const executeDevilHorns = () => {
       return;
     }
     console.log(`Pushed successfully to the cloud.\n${stdout}`);
+    process.exit(0);
   });
 };
 
