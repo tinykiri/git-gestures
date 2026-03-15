@@ -1,5 +1,4 @@
 // (console.log('Hello, world!'));
 // pupupu
-// dslalskdlasd;
-// dklfsdkfklsdlkf
-// lsdfklskdlf
+// hello.world('console.log');
+// blahblahblah
